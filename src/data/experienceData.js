@@ -1,10 +1,17 @@
 export const experienceData = [
   {
+    id: 3,
+    company: "WriteSonic - Y Combinator",
+    jobtitle: "Software Developer",
+    startYear: "May 2025",
+    endYear: "Present",
+  },
+  {
     id: 2,
     company: "Aquera Labs Pvt. Ltd.",
     jobtitle: "Member of Technical Staff 2",
     startYear: "Dec 2023",
-    endYear: "Present",
+    endYear: "May 2025",
   },
   {
     id: 1,
