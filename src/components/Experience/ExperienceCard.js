@@ -4,9 +4,6 @@ import Fade from "react-reveal/Fade";
 
 import { ThemeContext } from "../../contexts/ThemeContext";
 
-import expImgWhite from "../../assets/svg/experience/expImgWhite.svg";
-import expImgBlack from "../../assets/svg/experience/expImgBlack.svg";
-
 import "./Experience.css";
 
 function ExperienceCard({
@@ -39,7 +36,7 @@ function ExperienceCard({
         onClick={onClick}
       >
         <div className="expcard-img">
-          <img src={imageUrl} alt="Image Logo" />
+          <img src={imageUrl} alt="" aria-hidden="true" />
         </div>
         <div className="experience-details">
           <h6 style={{ color: theme.primary }}>
