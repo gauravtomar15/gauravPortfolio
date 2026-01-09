@@ -1,26 +1,36 @@
 export const skillsData = [
-  // Frontend Technologies
+  // Frontend
+  "Next JS",
   "React",
-  "Angular",
-  "Redux",
-  "JavaScript",
   "TypeScript",
+  "JavaScript",
   "HTML",
   "CSS",
+  "Tailwind",
   "MaterialUI",
-  "Bootstrap",
+  "Redux",
+  "NgRx",
+  "Zustand",
 
-  // Backend Technologies
+  // Backend
   "Node JS",
   "Express",
   "MongoDB",
+  "PostgreSQL",
+  "SQL",
   "Firebase",
 
-  // Programming & CS Fundamentals
+  // Data Fetching & State
+  "TanStack Query",
+  "RxJS",
+
+  // Programming & Fundamentals
   "C++",
   "Data Structures",
 
-  // Tools & Version Control
+  // Tools & Dev Tools
   "Git",
+  "GitHub",
+  "Postman",
   "Figma",
 ];
