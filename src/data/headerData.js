@@ -4,8 +4,8 @@ export const headerData = {
   name: "Ashish Yadav",
   title: "A Full Stack Developer",
   desciption:
-    "Programming is not about what you know, Its about what you can figure out.",
+    "It’s not about knowing the code, it’s about understanding the problem.",
   image: profile,
   resumePdf:
-    "https://drive.google.com/file/d/14qoymLXGAzp_0U3jXDx-AJORVFk_5mhS/view?usp=sharing",
+    "https://drive.google.com/file/d/1xhdYvlPbVX01YmJF2-AiChQvw0DZzAE8/view?usp=sharing",
 };
