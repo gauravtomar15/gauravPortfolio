@@ -16,6 +16,7 @@ function ExperienceCard({
   startYear,
   endYear,
   imageUrl,
+  onClick,
 }) {
   const { theme } = useContext(ThemeContext);
 
@@ -32,7 +33,11 @@ function ExperienceCard({
 
   return (
     <Fade bottom>
-      <div key={id} className={`experience-card ${classes.experienceCard}`}>
+      <div
+        key={id}
+        className={`experience-card ${classes.experienceCard}`}
+        onClick={onClick}
+      >
         <div className="expcard-img">
           <img src={imageUrl} alt="Image Logo" />
         </div>

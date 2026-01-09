@@ -9,6 +9,11 @@ import ExperienceCard from "./ExperienceCard";
 
 function Experience() {
   const { theme } = useContext(ThemeContext);
+  const handleCompanyOnClick = (redirectionUrl) => {
+    if (redirectionUrl) {
+      window.open(redirectionUrl, "_blank", "noopener,noreferrer");
+    }
+  };
   return (
     <div
       className="experience"
@@ -30,6 +35,7 @@ function Experience() {
               startYear={exp.startYear}
               imageUrl={exp.imageUrl}
               endYear={exp.endYear}
+              onClick={() => handleCompanyOnClick(exp.companyUrl)}
             />
           ))}
         </div>
