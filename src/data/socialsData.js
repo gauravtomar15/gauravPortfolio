@@ -1,6 +1,6 @@
 export const socialsData = {
-    github: 'https://github.com/ASHISHYADAV85270',
-    linkedIn: 'https://www.linkedin.com/in/ashish852/',
-    instagram: 'https://www.instagram.com/ashishyadav_oo7/',
+    github: 'https://github.com/gauravtomar15',
+    linkedIn: 'https://www.linkedin.com/in/gaurav-tomar-b19a86258/',
+    instagram: 'https://www.instagram.com/whogauravtomar/',
 
 }

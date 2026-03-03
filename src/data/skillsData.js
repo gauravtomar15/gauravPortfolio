@@ -16,13 +16,13 @@ export const skillsData = [
   "Node JS",
   "Express",
   "MongoDB",
-  "PostgreSQL",
+  // "PostgreSQL",
   "SQL",
   "Firebase",
 
   // Data Fetching & State
-  "TanStack Query",
-  "RxJS",
+  // "TanStack Query",
+  // "RxJS",
 
   // Programming & Fundamentals
   "C++",

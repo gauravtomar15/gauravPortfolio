@@ -2,7 +2,7 @@ export const aboutData = {
   title: "Who am I?",
   description1: (
     <>
-      I’m <strong>Ashish Yadav</strong> — a{" "}
+      I’m <strong>Gaurav Tomar</strong> — a{" "}
       <strong>Full Stack Developer</strong> who enjoys turning complex problems
       into clean, scalable, and user-friendly solutions. I work across the stack
       to build products that are fast, intuitive, and impactful.
@@ -12,13 +12,12 @@ export const aboutData = {
     <>
       With hands-on experience in <strong>JavaScript</strong>,{" "}
       <strong>TypeScript</strong>,<strong> React</strong>,{" "}
-      <strong>Next.js</strong>, <strong>Angular</strong>, and
+      <strong>Redux</strong>, <strong>Express.js</strong>,{" "},
+      <strong>MongoDb</strong>,{" "} and
       <strong> Node.js</strong>, I specialize in building high-performance web
       applications. I’ve worked on <strong>AI-powered dashboards</strong>,{" "}
       <strong>analytics platforms</strong>,
-      <strong> real-time debugging tools</strong>, and{" "}
-      <strong>developer-focused interfaces</strong>
-      at companies like <strong>WriteSonic</strong> and <strong>Aquera</strong>.
+      <strong> real-time debugging tools</strong>
       <br />
       <br />
       From optimizing <strong>APIs</strong> and{" "}

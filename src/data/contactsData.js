@@ -1,6 +1,6 @@
 export const contactsData = {
-  email: "ashishyadavfeb02@gmail.com",
-  phone: "+91 8527086883",
-  address: "Bengaluru, Karnataka ",
+  email: "gauravtomar977@gmail.com",
+  phone: "+91 9639508340",
+  address: "Moradabad, Uttar Pradesh ",
   sheetAPI: "",
 };

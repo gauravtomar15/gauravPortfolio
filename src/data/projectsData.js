@@ -1,4 +1,4 @@
-import blogify from "../assets/svg/projects/blogify.png";
+import devtinder from "../assets/svg/projects/devtinder.png";
 import chatApp from "../assets/svg/projects/chatapp.png";
 import movix from "../assets/svg/projects/movix.png";
 import redux from "../assets/svg/skills/redux.svg";
@@ -11,37 +11,41 @@ import javascript from "../assets/svg/skills/javascript.svg";
 
 export const projectsData = [
   {
-    id: 1,
-    projectName: "Blogify",
-    projectDesc:
-      "A full-stack blog application built using the MERN stack, allowing users to create, manage, and interact with blog posts.",
-    projectResp: "Areas Of Responsibilities",
-    responsibility: [
-      "Implemented image upload functionality using Multer",
-      "Developed RESTful API endpoints for user management, blog post creation, and comments",
-      "Implemented secure user authentication using cookies for persistent login sessions",
-    ],
-    tags: [react, express, bootstrap, vitejs, nodeJs, javascript],
-    code: "https://github.com/ASHISHYADAV85270/bloggingApp",
-    demo: "https://blogify-hovt.onrender.com/",
-    image: blogify,
-  },
+  id: 1,
+  projectName: "DevTinder – Dating & Matchmaking App",
+  startYear: "Oct 2025",
+  endYear: "Jan 2026",
+  projectDesc:
+    "A full-stack dating and matchmaking application built using the MERN stack with TypeScript, featuring real-time chat and secure authentication.",
+  projectResp: "Key Responsibilities",
+  responsibility: [
+    "Built secure RESTful APIs with Node.js and Express.js and implemented JWT-based authentication",
+    "Integrated real-time chat functionality using Socket.io and optimized MongoDB queries for performance"
+  ],
+  tags: [react, redux, nodeJs, express, javascript, vitejs],
+  code: "https://github.com/gauravtomar15/devTinder-Web",
+  demo: "https://gauravdevsocial.site/login",
+  image: devtinder,
+
+}
+,
   {
-    id: 2,
-    projectName: "Chat App",
-    projectDesc:
-      "A real-time chat application with Socket.IO and RESTful API, ensuring secure and seamless messaging.",
-    projectResp: "Areas Of Responsibilities",
-    responsibility: [
-      "Developed a Socket.IO-based real-time chat system",
-      "Designed and managed MongoDB database",
-      "Created a RESTful API backend for data transfer",
-      "Implemented authentication and security features",
-    ],
-    tags: [react, express, bootstrap, vitejs, nodeJs, javascript],
-    code: "https://github.com/ASHISHYADAV85270/chatappashishbackend",
-    demo: "https://github.com/ASHISHYADAV85270/chatappashishbackend", // No demo link provided in the CV
-    image: chatApp,
+  id: 2,
+  projectName: "Real-Time Chat Application",
+  startYear: "Jul 2025",
+  endYear: "Sep 2025",
+  projectDesc:
+    "A real-time chat application built using the MERN stack with Socket.io, enabling instant messaging and secure user authentication.",
+  projectResp: "Key Responsibilities",
+  responsibility: [
+    "Developed real-time messaging functionality using Socket.io for seamless user communication",
+    "Built RESTful APIs with Node.js and Express.js for efficient client-server data exchange",
+    "Implemented JWT-based authentication and optimized MongoDB queries for secure and scalable performance"
+  ],
+  tags: [react, redux, nodeJs, express, javascript, vitejs],
+  code: "https://github.com/gauravtomar15/Chat-app",
+  demo: "https://github.com/gauravtomar15/Chat-app",
+  image: chatApp,
   },
   {
     id: 3,
@@ -56,8 +60,7 @@ export const projectsData = [
       "Enhanced UI with Sass and responsive design",
     ],
     tags: [react, redux, bootstrap, vitejs, nodeJs, javascript],
-    code: "https://github.com/ASHISHYADAV85270/MOVIEAPP",
-    demo: "https://ashishmovieapp.netlify.app/", // No demo link provided in the CV
+     // No demo link provided in the CV
     image: movix,
   },
 ];

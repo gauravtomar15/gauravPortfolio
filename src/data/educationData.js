@@ -1,16 +1,16 @@
 export const educationData = [
   {
     id: 2,
-    institution: "IIT NAGPUR",
-    course: "Electronics and Communication Engineering (ECE)",
-    startYear: "2020",
-    endYear: "2024",
+    institution: "Dr. APJ Abdul Kalam Technical University",
+    course: "Computer Science and Engineering (B.Tech)",
+    startYear: "2022",
+    endYear: "2026",
   },
   {
     id: 3,
-    institution: "KCM Public School",
+    institution: "Chitragupt Inter College",
     course: "Intermediate",
-    startYear: "2018",
-    endYear: "2019",
+    startYear: "2021",
+    endYear: "2022",
   },
 ];
